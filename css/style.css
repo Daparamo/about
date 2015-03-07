@@ -1,0 +1,66 @@
+body
+{
+	background-image:url("http://fc08.deviantart.net/fs70/f/2012/227/a/a/4_ojo_png_by_sofiachicle-d5b5rkf.png"),url("http://docs.oracle.com/javafx/2/get_started/background.jpg");
+	background-position: center center;	
+	background-repeat: repeat, repeat;	
+}
+header
+{
+	background: black;
+	border: 4px solid rgb(88, 30, 229);
+	border-radius: 30px 0px;
+	box-shadow: inset 0px 0px 30px rgb(0, 227, 245),10px 10px 20px black;
+	color: white;
+	margin: 20px auto;
+	padding: 40px;
+	text-align: center;
+	text-shadow: 2px 3px 5px rgb(0, 245, 255);
+	width: 500px;
+}
+.menu
+{
+	margin: 10px auto;
+	text-align: center;
+	width: 400px;	
+}
+.menu li 
+{
+	display: inline-block;
+	list-style: none;
+	background: blue;
+	border: 3px solid black;
+	border-radius: 30px;
+	box-shadow: inset 0px 0px 5px blue;
+	color: yellow;
+	cursor:pointer;
+	padding: 5px 15px;
+	text-align: center;
+}
+.menu li a 
+{
+	color:yellow
+}
+.menu li:hover
+{
+	background:cyan;
+	color: yellow;
+}
+a 
+{
+	text-decoration: none;
+
+}
+#contenido, footer 
+{
+	
+}
+li img{
+	padding: 0px;
+	width:30px;
+	height:30px;
+}
+.banano{
+	margin:0 auto;
+	width: 30px;
+	 	
+}
